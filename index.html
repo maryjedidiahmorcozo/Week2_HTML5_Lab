@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Learning HTML5 — My Web Experiments</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>My Web Experiments</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <section id="about">
+      <h2>About this Page</h2>
+      <p>
+        Hi I'm a web development student experimenting with HTML5. This page
+        documents small experiments in semantic markup, responsive media, and
+        accessible content. It is written in first person to reflect progress
+        and learning goals (but contains no real personal details).
+      </p>
+
+      <h3>Current goals</h3>
+      <ul>
+        <li>Understand semantic HTML and when to use each element</li>
+        <li>Make media responsive and accessible</li>
+        <li>Practice creating small, self-contained project pages</li>
+      </ul>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section id="multimedia">
+      <h2>Multimedia Features</h2>
+
+      <!-- Image Figure -->
+<figure>
+  <img src="Illustration of a laptop and coffee mug.jpg" alt="Illustration of a laptop and coffee mug" width="400" height="225">
+  <figcaption>Figure 1: Illustration of a laptop and coffee mug
+     </figcaption>
+</figure>
+
+
+      <!-- NEW: Your Custom Video Figure -->
+      <figure>
+        <video width="640" height="360" controls poster="https://via.placeholder.com/800x450">
+          <source src="Alex Crichton - Merry Christmas, i miss you (Lyrics) - BangersOnly (1080p, h264, youtube).mp4" type="video/mp4">
+          <source src="Alex Crichton - Merry Christmas, i miss you (Lyrics) - BangersOnly (1080p, h264, youtube).webm" type="video/webm">
+          Your browser does not support the HTML5 video tag. You can 
+          <a href="Alex Crichton - Merry Christmas, i miss you (Lyrics) - BangersOnly (1080p, h264, youtube).mp4">download the video instead</a>.
+        </video>
+        <figcaption>Figure 2: My newly added custom video player (My Favorite Song).</figcaption>
+      </figure>
+
+      <!-- Old Placeholder Video Figure -->
+      <figure>
+        <video controls width="640" poster="https://via.placeholder.com/800x450">
+          <source src="Panaginip - nicole (Official Music Video) - nicole (1080p, h264, youtube).mp4" type="video/mp4">
+          Your browser does not support the video tag. 
+          <a href="Panaginip - nicole (Official Music Video) - nicole (1080p, h264, youtube).mp4">download the video</a>
+        </video>
+        <figcaption>Figure 3: Also my Favorite Song.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Created by [M.J.M] | © 2025</p>
+  </footer>
+
+</body>
+</html>
